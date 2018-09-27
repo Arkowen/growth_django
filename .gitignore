@@ -60,3 +60,5 @@ target/
 
 *.db
 *.sqlite3
+/blog/*.pyc
+/blogpost/*.pyc

@@ -14,7 +14,6 @@ class Blogpost(models.Model):
     body-内容
     posted-发布日期
     """
-
     title = models.CharField(max_length=100, unique=True)
     author = models.CharField(max_length=100, unique=True)
     slug = models.SlugField(max_length=100, unique=True)
